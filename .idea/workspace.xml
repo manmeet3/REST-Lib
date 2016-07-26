@@ -97,8 +97,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -848,12 +848,12 @@
       <updated>1469241340247</updated>
       <workItem from="1469241342015" duration="1070000" />
       <workItem from="1469293790921" duration="7950000" />
-      <workItem from="1469483067718" duration="5216000" />
+      <workItem from="1469483067718" duration="5387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14236000" />
+    <option name="totallyTimeSpent" value="14407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
@@ -1067,8 +1067,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
