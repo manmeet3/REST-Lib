@@ -1,16 +1,15 @@
 package com.manmeet.Entity;
-
 // Representation of a table definition in a typical db. Book in this case
 public class Book {
 
     private int id;
     private String name;
-    private String course;
+    private String genre;
 
-    public Book(int id, String name, String course) {
+    public Book(int id, String name, String genre) {
         this.id = id;
         this.name = name;
-        this.course = course;
+        this.genre = genre;
     }
 
     public int getId() {
@@ -29,11 +28,11 @@ public class Book {
         this.name = name;
     }
 
-    public String getCourse() {
-        return course;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setCourse(String course) {
-        this.course = course;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 }
