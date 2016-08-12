@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Collection;
 
 @Repository
-public class BookDaoImpl implements BookDao {
+public class BookDaoImpl  implements BookDao{
     private static Map<Integer, Book> books;
 
     static {
@@ -25,25 +25,25 @@ public class BookDaoImpl implements BookDao {
         };
     }
 
-    @Override
+    //@Override
     public Collection<Book> getAllBooks()
     {
 
         return this.books.values();
     }
 
-    @Override
+    //@Override
     public Book getBookById(int id){
 
         return this.books.get(id);
     }
 
-    @Override
+    //@Override
     public void removeBookById(int id) {
         this.books.remove(id);
     }
 
-    @Override
+    //@Override
     public void updateBookByObj(Book book){
         Book b = books.get(book.getId());
         b.setGenre(book.getGenre());
@@ -51,7 +51,7 @@ public class BookDaoImpl implements BookDao {
         this.books.put(book.getId(), book);
     }
 
-    @Override
+    //@Override
     public void insertBook(Book book){
         this.books.put(book.getId(), book);
     }
